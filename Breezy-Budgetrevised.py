@@ -32,7 +32,7 @@ def main():
     window = tk.Tk()
     window.title("Breezy Budget")
     window.geometry("1000x800")
-    bgImage = tk.PhotoImage(file = "c:/Users/sofii/OneDrive/Desktop/bg.png") #adding a background photo
+    bgImage = tk.PhotoImage(file = "https://github.com/jlarge2/Software-Dev/blob/main/bg.png") #adding a background photo
     bgLabel = tk.Label(window, image = bgImage) 
     bgLabel.place(relwidth = 1, relheight = 1, relx = 0, rely = 0)
 
@@ -40,7 +40,7 @@ def main():
 
     ##checks to see if the title image loaded
     try:
-        titleImage = tk.PhotoImage(file = "c:/Users/sofii/OneDrive/Desktop/breezytitle.png")
+        titleImage = tk.PhotoImage(file = "https://github.com/jlarge2/Software-Dev/blob/main/breezytitle.png")
         imageLabel = tk.Label(window, image = titleImage) 
         imageLabel.place(x = 360, y = 35)
 
@@ -60,7 +60,7 @@ def main():
         listWindow = tk.Toplevel()
         listWindow.title("Budget Items")
         listWindow.geometry("800x450")
-        bg2Image = tk.PhotoImage(file = "c:/Users/sofii/OneDrive/Desktop/bg.png") #applying background image to this window too
+        bg2Image = tk.PhotoImage(file = "https://github.com/jlarge2/Software-Dev/blob/main/bg.png") #applying background image to this window too
         bg2Label = tk.Label(listWindow, image=bg2Image)
         bg2Label.image = bg2Image  #keeping a reference because otherwise it won't show up
         bg2Label.place(relwidth = 1, relheight = 1, relx = 0, rely = 0)
@@ -135,7 +135,7 @@ def main():
         ##button to return to main window
         ##checking if it loads image, uses alt text if not
         try:
-            imgReturn = tk.PhotoImage(file = "c:/Users/sofii/OneDrive/Desktop/backtoaddmore.png")
+            imgReturn = tk.PhotoImage(file = "https://github.com/jlarge2/Software-Dev/blob/main/backtoaddmore.png")
         except tk.TclError as e:
             print(f"Failed to load image: {e}")
             imgReturn = None  #so it knows to show up
@@ -269,9 +269,9 @@ def main():
 
     ##load images for buttons with alt text if it doesn't load
     try:
-        imgAdd = tk.PhotoImage(file="c:/Users/sofii/OneDrive/Desktop/addtolist.png")
-        imgTotals = tk.PhotoImage(file="c:/Users/sofii/OneDrive/Desktop/totals.png")
-        imgExit = tk.PhotoImage(file="c:/Users/sofii/OneDrive/Desktop/closeprogram.png")
+        imgAdd = tk.PhotoImage(file="https://github.com/jlarge2/Software-Dev/blob/main/addtolist.png")
+        imgTotals = tk.PhotoImage(file="https://github.com/jlarge2/Software-Dev/blob/main/totals.png")
+        imgExit = tk.PhotoImage(file="https://github.com/jlarge2/Software-Dev/blob/main/closeprogram.png")
     except tk.TclError as e:
         print(f"Failed to load images: {e}")
         imgAdd = imgTotals = imgExit = None  #if they don't load, it sets to no images
