@@ -1,0 +1,20 @@
+Breezy Budget
+Author: Jennifer Large
+Last Modified: 12/14/23
+Budget App that takes input for each budget item, categorizes it, and then outputs totals together and separately, both monthly and biweekly (so the user can have that amount directly deposited into the appropriate account, making budgeting a breeze)
+
+HOW TO USE:
+1. Open application.
+2. Put your first budget item in.
+	- Enter only numbers in the "Amount" field.
+	- Enter only "Bills", "Spending", or "Savings" in second category. Please note, this is not case sensitive.
+	- Enter your description.
+	- Select Yes or No
+3. Click "Add to List", if input fields cleared, your inputs were successfully added to the list.
+4. Repeat for all budget items. Don't worry if you forget one, the Totals window will have a return button.
+5. Click "Totals" when you have finished adding all items. Another window will open.
+6. View your list, and below the list, your monthly and biweekly totals for each category (bills, spending, savings).
+7. If you've forgotten an item, you can click "Back to Add More" and it will take you to the first window.
+8. To close, click the x in the corner of the window, or the "Close Program" button on the first window.
+
+Enjoy Breezy Budgeting!
